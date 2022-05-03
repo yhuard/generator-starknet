@@ -16,4 +16,4 @@ send "\r"
 expect "ERC721"
 send "\r"
 
-interact
+expect eof
