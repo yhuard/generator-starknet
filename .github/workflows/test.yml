@@ -21,4 +21,4 @@ jobs:
       - name: Run the generator
         run: expect __tests__/generator.exp
       - name: Check the project has been successfully created
-        run: 'test -f "/home/runner/work/generator-starknet/generator-starknet/requirements.txt"'
+        run: 'test -f "/home/runner/work/generator-starknet/generator-starknet/tmp/requirements.txt"'
